@@ -2,20 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bigData" />
-        <module name="ssm" />
-        <module name="duboo" />
-        <module name="es" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bigData" target="1.5" />
+      <module name="common" target="1.5" />
       <module name="duboo" target="1.5" />
       <module name="es" target="1.5" />
+      <module name="rocketMq" target="1.5" />
       <module name="ssm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
