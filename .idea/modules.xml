@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/bigData/bigData.iml" filepath="$PROJECT_DIR$/common/bigData/bigData.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/common/dubbo/dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/es/es.iml" filepath="$PROJECT_DIR$/common/es/es.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learn-start.iml" filepath="$PROJECT_DIR$/.idea/learn-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/rocketMq/rocketMq.iml" filepath="$PROJECT_DIR$/common/rocketMq/rocketMq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/ssh/ssh.iml" filepath="$PROJECT_DIR$/common/ssh/ssh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/ssm/ssm.iml" filepath="$PROJECT_DIR$/common/ssm/ssm.iml" />
     </modules>
   </component>
 </project>

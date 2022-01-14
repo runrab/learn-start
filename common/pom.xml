@@ -6,7 +6,17 @@
 
     <groupId>com.runrab</groupId>
     <artifactId>common</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>dubbo</module>
+        <module>es</module>
+        <module>ssm</module>
+        <module>rocketMq</module>
+        <module>bigData</module>
+        <module>ssh</module>
+        <module>ssh</module>
+    </modules>
 
 
 </project>
