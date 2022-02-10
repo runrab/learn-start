@@ -1,0 +1,21 @@
+spring:
+  kafka:
+    bootstrap-servers: node01:9092,node02:9092,node03:9092
+    #=============== producer  =======================
+    producer:
+      batch-size: 16384
+      buffer-memory: 16384
+      acks: all
+      retries: 999999
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    #=============== consumer  =======================
+    consumer:
+      group-id: 111
+      auto-commit-interval: 100
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+server:
+  port: 8081
